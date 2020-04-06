@@ -1,0 +1,25 @@
+4/5/20 - 
+Servers Affected: Network
+Status: complete
+ID: A1NETWORK
+
+Added Features:
++ Added Status Page
++ Added GitHub UPDATES
++ Added Player Count Bot
++ Added SQL Ban System
++ Added Ticket System
++ Added WebServer CDN
++ Added Daemon SSL
++ Added Lobby Compass
++ Added Lobby2 server (backup)
++ Added Forums Rules
+
+Security Updates:
++ Added SQL SSL
+= Fixed SFTP password storage system
+= Updated Panel 0.6 to 0.7
+= Reconfigured the GCINCONT
+= Updated for Remote server console control utilizing daemon websocket replacement
+= Wings upgraded
+= Fixed rapidly created API keys issue
