@@ -1,0 +1,21 @@
+4/9/20 - 
+Servers Affected: WILDWEST
+Status: complete
+ID: A2WILDWEST
+
+Added Features:
++ Added Ellsworth Town
++ Added Rahwide Mine
++ Added Poppy Field
++ Added Poppy Base
++ More map updates have been added too 
+
+Security Updates:
+= Fixed BungeeCord not passing on correct UUID's after username changes.
+= Fixed commands that posed a security risk to the server chat.
+
+Fixed Issues:
+= Not being able to mine in Rahwide Mine
+= Rahwide Mine ore processor facing the wrong way
+
+Loot with horses and money was reset on all players to fix the UUID usr name changes.
