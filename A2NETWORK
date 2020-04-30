@@ -1,0 +1,47 @@
+4/30/20 - 
+Servers Affected: Network
+Status: complete
+ID: A2NETWORK
+
+Added Features:
++ Hosting SQL on GCP, Enable point-in-time recovery Allows us to recover data from a specific point in time, down to a fraction of a second.
++ SQL automatic backups.
++ Changed to northamerica-northeast-b
++ Added MediaWiki wiki to webserver.
++ Updated Panel version to 0.7.17
++ Limited accounts to 5 API keys at a time.
++ Fixed database passwords not being generated with the proper requirements for some MySQL setups.
++ Hostnames that are not FQDNs/IP addresses can now be used for connecting to a MySQL host.
++ Suspending a server is now a graceful stop (and termination if more than a minute passes without successful stop).
++ CPU threads can now be assigned to a server's container to provide even more controls over resource usage.
++ Upgraded daemon to 0.6.13
++ Changed location to minenite.ca.mo.1.b for instance start/stop redundancy.
++ Disk snapshot backup Every day between 4:00 AM and 5:00 AM UTC.
++ Added auto delete snapshots after 14 days.
++ Upgraded wings service
++ Basic os upgrades/updates
++ Created instance template for instance groups for different zones.
++ AlwaysOnlineMinenite plugin, when auth servers are down, players with their ip can still join under their username.
++ Added bungeecord redirect.
++ Added loadbalbunge.java to bungeecord.jar
++ Added via-version dynamic auto updates.
++ Added new compute instance with packet replication & database replication for dynamic network updates.
++ Status page now displays better network info.
++ All network servers have been wiped of playerdata.
++ Fixed at bottom of home website bug reports link.
++ Updated shop link: shop.minenite.net
++ Fixed up forums website. (public nav bar)
++ Edited warzairdrops plugin to add chest deletion after 19 mins.
++ Added staff build server with extended worlds.
++ Added staff 2Auth for panel & forums with 30day remember browser.
++ Added secure boot for ssh. (against boot-level and kernel-level malware and rootkits)
++ Added deletion protection for main instance.
++ Added logs for ingress/egress connections for monitoring attacks.
++ Added cf Enhanced HTTP/2 Prioritization.
++ Added cf Railgun.
++ Added cf AMP Real URL.
++ Added discord bot to wildwest com discord.
+
+
+
+
