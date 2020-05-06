@@ -41,7 +41,17 @@ Added Features:
 + Added cf Railgun.
 + Added cf AMP Real URL.
 + Added discord bot to wildwest com discord.
++ Added DMARC.
++ Added SPF record.
++ Added DKIM.
 
-
-
-
+Big Changes:
+= Entire network had to be deleted and new one created. - GCP billing bot messed up and didnt accept my auto payments.
+= Contacted GCP staff, took 4 days to be resolved due to COVID-19
+= Network now an org under gsuite > minenite.net
+= Network now using fail2ban
+= Network now now utilizing services: GCPSQL, VTL, Snapshot backups, SQL backups.
+= Backups delete after 14 days, 4 backups a day (*Host, OS, services, panel, containers, locations, nodes, servers, worlds, plugins, playerdata.)
+= Anti Crashing plugins have been added.
+= Correct packet key holes have been added to the in-exterior firewall.
+= Everything is logged now, this encludes (*Host, OS, services, panel, containers, locations, nodes, servers, worlds, plugins, playerdata.)
