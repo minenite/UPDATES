@@ -44,6 +44,7 @@ Added Features:
 + Added DMARC.
 + Added SPF record.
 + Added DKIM.
+= Using a shorter max_Lifetime value than wait_timeout.
 
 Big Changes:
 = Entire network had to be deleted and new one created. - GCP billing bot messed up and didnt accept my auto payments.
